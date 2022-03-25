@@ -1,0 +1,56 @@
+[
+    {
+        "id": "623df417774b228b190c7ba0",
+        "price": "$2,817",
+        "picture": "https://cdn.suzukimotorcycle.co.in/public-live/uploads/media-images/original/Gixxer-SF-Mira-Red-150-Website-Home-Page-Desktop-2547x1420-new-min_5f759dfde64f8.jpg",
+        "name": "SUZUKI"
+    },
+    {
+        "id": "623df4174d4e735372af2a4f",
+        "price": "$2,660",
+        "picture": "https://i.pinimg.com/originals/cc/ed/99/cced99089ff012024d0e557e7ff41b6e.jpg",
+        "name": "SUZUKI-250"
+    },
+    {
+        "id": "623df417af5f76d44844a711",
+        "price": "$3,820.00",
+        "picture": "https://news.maxabout.com/wp-content/uploads/2017/12/2018-Yamaha-YZF-R1-India-2-1024x770.jpg",
+        "name": "YAMAHA"
+    },
+    {
+        "id": "623df417883859b2338ad428",
+        "price": "$2,057.74",
+        "picture": "https://news.maxabout.com/wp-content/uploads/2017/11/Honda-CB125R.jpg",
+        "name": "HONDA"
+    },
+    {
+        "id": "623df417fa2fdbe6793faf89",
+        "price": "$2,718.69",
+        "picture": "https://static.langimg.com/thumb/msid-65279503,width-1200,height-900,resizemode-75/navbharat-times.jpg",
+        "name": "KAWASAKI-ninja-zx"
+    },
+    {
+        "id": "623df417ec9d0d6299da073f",
+        "price": "$3,110.30",
+        "picture": "https://wallpapercave.com/wp/wp2810239.jpg",
+        "name": "HERO"
+    },
+    {
+        "id": "623df417e359335b69959fae",
+        "price": "$3,942.84",
+        "picture": "https://wallpapercave.com/wp/wp2810239.jpg",
+        "name": "HARLEY"
+    },
+    {
+        "id": "623df417b4c61767f22b5b18",
+        "price": "$2,968.61",
+        "picture": "https://ic1.maxabout.us/autos/tw_india//D/2021/3/dhoom-3-bike-bmw-k1300r.jpg",
+        "name": "BMW-1300"
+    },
+    {
+        "id": "623df417461af97a7f7acf6d",
+        "price": "$2,166.86",
+        "picture": "https://img.indianautosblog.com/crop/1200x675/2018/04/TVS-Apache-RTR-160-Race-Edition-White-in-Images-left-side.jpg",
+        "name": "APACHE-RTR-160"
+    }
+]
