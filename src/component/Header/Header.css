@@ -4,6 +4,11 @@
 }
 h3{
     color: #ffffff;
+    font-size: 30px;
+}
+h3:hover{
+font-size: 50px;
+color: green;
 }
 .header{
     height: 80px;

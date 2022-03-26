@@ -32,6 +32,12 @@ const Shop = () => {
             <div className='card-container'>
                 <Card card={card}></Card>
             </div>
+            <div className='q-container'>
+                <h1>Question:1. How React works?</h1>
+                <p>Answer:</p>
+                <h1>Question:2. How useState works?</h1>
+                <p>Answer:</p>
+            </div>
         </div>
     );
 };

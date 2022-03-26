@@ -3,3 +3,16 @@
     top: 0;
     padding: 30px 23px;
 }
+.choose-card button{
+margin: 10px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+font-size: 20px;
+background-color: rgb(122, 165, 42);
+color: #ffffff;
+}
+
+.choose-card button:hover{
+background-color: rgb(147, 219, 219);
+}
