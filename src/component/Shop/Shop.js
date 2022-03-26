@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import Card from '../Card/Card';
 import Product from '../Product/Product';
 import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
+    const [card, setCard] = useState([]);
+
+
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+
+    const addToCardHandle = (product) => {
+        const newCard = [...card, product];
+        setCard(newCard);
+    }
     return (
         <div className='shop-container'>
             <div className='products-container'>
@@ -16,11 +25,12 @@ const Shop = () => {
                     products.map(product => <Product
                         key={product.id}
                         product={product}
+                        addToCardHandle={addToCardHandle}
                     ></Product>)
                 }
             </div>
-            <div className='cart-container'>
-                <h2>this is shop</h2>
+            <div className='card-container'>
+                <Card card={card}></Card>
             </div>
         </div>
     );
