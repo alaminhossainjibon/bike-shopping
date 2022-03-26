@@ -14,8 +14,8 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const addToCardHandle = (product) => {
-        const newCard = [...card, product];
+    const addToCardHandle = (item) => {
+        const newCard = [...card, item];
         setCard(newCard);
     }
     return (
@@ -30,13 +30,19 @@ const Shop = () => {
                 }
             </div>
             <div className='card-container'>
-                <Card card={card}></Card>
+                {
+                    card.map(card => <Card
+                        card={card}
+                    ></Card>)
+                }
             </div>
             <div className='q-container'>
                 <h1>Question:1. How React works?</h1>
-                <p>Answer:</p>
+                <h1>Answer: </h1>
+                <p>Feedback works in declarative code. In order to understand what we mean by declarative code, we want you to imagine the following code as an app. With a navigator, a title, a filter, and a list you can see what the image looks like on the screen below. Because every line of code declares what every element of the app is.</p>
                 <h1>Question:2. How useState works?</h1>
-                <p>Answer:</p>
+                <h1>Answer:</h1>
+                <p>useState is a hook that lets you place stat variables on functional elements. You pass the initial state to this function and it provides a variable with the current state value (not the initial state) and another function to update this value.</p>
             </div>
         </div>
     );
